@@ -1,4 +1,4 @@
 <launch>
 <node name="listener" pkg="object_detection" type="listener.py" output="screen" />
-<node name="static_map" pkg="object_detection" type="static_map.py" output="screen" />
+<!-- <node name="static_map" pkg="object_detection" type="static_map.py" output="screen" /> -->
 </launch>

@@ -98,7 +98,6 @@ install(DIRECTORY launch
 catkin_install_python(PROGRAMS
   src/node.py
   src/listener.py
-  src/static_map.py
   ${python_scripts_DIR}
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
